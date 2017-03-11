@@ -1,0 +1,220 @@
+section {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+
+/* R E T R o */
+.retro {
+	background-color: #7cbfbf;
+	min-height: 750px;
+	text-align: center;
+	color: #f9ebd9;
+	text-transform: uppercase;
+	font-family: 'bazarmedium';
+}
+
+.retro__nav {
+	
+	margin: 0;
+}
+
+.retro__nav a {
+	color: #f9ebd9;
+	text-decoration: none;
+}
+.retro__nav a:hover {
+	color: #0033FF;
+}
+/*.retro__nav a:visited {
+	color: #f9ebd9;
+}*/
+
+.retro__nav-item {
+	
+	font-size: 20px;
+	
+	padding-top: 2%;
+}
+ .retro__img {
+ 	max-width: 100%;
+
+ }
+.retro__title {
+	font-family: 'seasideresortnfregular', sans-serif;
+	font-size: 114px;
+	text-shadow: #7cbfbf 10px 3px 0,
+				 #585858 18px 6px 2px;
+	letter-spacing: 0.1em;
+	margin-top: 0;
+}
+
+.retro__blank {
+	background-image: url("../img/retro_bgr_text.png") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100px;
+	background-size: contain;
+}
+
+.retro__text {
+	
+	font-size: 26px;
+	color: #4b4e4c;
+	text-transform: uppercase;
+	line-height: 95px;
+}
+
+.retro__galery {
+	max-width: 920px;
+	margin: 15px auto;
+	border: 10px solid #fbfaf6;
+	background: #fbfaf6;		
+}
+
+.retro__galery:after {
+	content: "KODAK CAMERA";
+	
+	font-size: 22px;
+	color: #383a3c;
+}
+
+.retro__title-me {
+	
+	font-size: 28px;
+	line-height: 1.5;
+}
+
+/* R E T R O    E N D  */
+
+/* A B O U T   M E  */
+
+.aboutme {
+	background-color: #e1dccc;
+	min-height: 750px;
+	text-align: center;
+	color: #383a3c;
+	text-transform: uppercase;
+	font-family: 'bazarmedium';	
+}
+
+.aboutme__title {
+	font-size: 114px;
+	text-shadow: #ddd8c8 3px 2px 0,
+				 #484a4d 6px 4px 0;
+	letter-spacing: 0.1em;			 
+}
+
+.aboutme__info  {
+	padding: 0 10px;
+	margin: 0;	
+}
+
+.aboutme__intro {
+	margin-bottom: 25px;
+
+}
+
+.aboutme__block {
+	margin-bottom: 30px;
+}
+.aboutme__block-subtitle, .aboutme__block-text, .portofolio__block-subtitle {
+	font-family: 'roboto_slabregular';
+}
+
+.aboutme__block-subtitle {
+	font-size: 18px;
+}
+.aboutme__block-text {
+	text-align: left;
+	font-size: 14px;
+	padding-top: 10px;
+
+}
+
+/* P O R T o F O L I O */
+.portofolio {
+	background-color: #dd8563;
+	text-align: center;
+	color: #383a3c;
+	text-transform: uppercase;
+	font-family: 'bazarmedium';
+}
+
+.portofolio__title {
+	font-size: 114px;
+	text-shadow: #ddd8c8 3px 2px 0,
+				 #484a4d 6px 4px 0;
+	letter-spacing: 0.1em;	
+}
+
+.portofolio__info {
+	padding: 0 5px;
+	margin: 0;
+}
+
+.portofolio__intro {
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.portofolio__block-subtitle {
+	font-size: 16px;
+}
+
+.portofolio__block-img {
+	max-width: 100%;
+	border: 5px solid #ddd8c8;
+	margin-bottom: 10px;
+}
+
+.portofolio__block a {
+	color: #383a3c;
+	text-decoration: none;
+}
+
+.portofolio__block a:hover {
+	color: #0033FF;
+}
+
+@media screen and (max-width: 650px) {
+	.retro__title {
+		font-size: 100px;
+	}
+
+	.retro__text {
+		font-size: 18px;
+		line-height: 95px;
+	}
+
+	.aboutme__title, {
+		font-size: 80px;
+	}
+	.portofolio__title {
+		font-size: 72px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.retro__title {
+		font-size: 76px;
+		text-shadow: #7cbfbf 5px 2px 0,
+				     #585858 9px 4px 1px;
+	}
+
+	.retro__text {
+		font-size: 14px;
+		line-height: 98px;
+	}
+
+	.aboutme__title {
+		font-size: 60px;
+		text-shadow: #ddd8c8 1px 1px 0,
+				 	 #484a4d 2px 2px 0;
+	}
+	.portofolio__title {
+		font-size: 52px;
+		text-shadow: #ddd8c8 1px 1px 0,
+				 	 #484a4d 2px 2px 0;
+	}
+}
+
