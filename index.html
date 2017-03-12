@@ -5,17 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>A-Portofolio-A</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/fonts_min.css">
+	<link rel="stylesheet" href="css/custom_min.css">
 
 </head>
 <body>
 	<section class="retro">
 		<nav class="retro__nav row">
-			<div class="retro__nav-item col-xs-12 col-sm-2 col-sm-offset-2"><a href="#about">about me</a></div>
-			<div class="retro__nav-item col-xs-12 col-sm-2"><a href="#portofolio">portofolio</a></div>
+			<div class="retro__nav-item col-xs-12 col-sm-4"><a href="#about">about me</a></div>
+			<div class="retro__nav-item col-xs-12 col-sm-4"><a href="#portofolio">portofolio</a></div>
+			<!--
 			<div class="retro__nav-item col-xs-12 col-sm-2">my blog</div>
-			<div class="retro__nav-item col-xs-12 col-sm-2">contact me</div>
+			-->
+			<div class="retro__nav-item col-xs-12 col-sm-4"><a href="#contacts">contact me</a></div>
 		</nav>
 		<img src="img/line.png" alt="line" class="retro__img">
 		<img src="img/line.png" alt="line" class="retro__img">
@@ -130,6 +132,54 @@
 		</div>
 		<img src="img/line.png" alt="line" class="retro__img">
 	</section>
+
+	<section class="contacts" id="contacts">
+		<img src="img/line.png" alt="line" class="retro__img">
+		<h2 class="contacts__title">contact me</h2>
+		<img src="img/separator_white.png" alt="separator" class="aboutme__separator">
+		<h3 class="contacts__intro">I'LL BE GLAD TO ANSWER YOUR QUESTIONS!</h3>
+		 <form class="contacts__form">
+		 		<div class="form-group">
+			    <label for="name">Name:</label>
+			    <input type="text" class="form-control" id="name">
+			  </div>
+			  <div class="form-group">
+			    <label for="email">Email address:</label>
+			    <input type="email" class="form-control" id="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="subj">Subject:</label>
+			    <input type="text" class="form-control" id="subj">
+			  </div>
+			  <div class="form-group">
+			    <label for="mess">Your message:</label>
+			    <textarea  class="form-control contacts__text" id="mess"></textarea>
+			  </div>
+			  <button type="button" class="btn btn-default contacts__btn" data-toggle="modal" data-target="#myModal">Send message</button>
+		</form>
+		<!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content contacts__modal">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Отправка сообщения</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>В данное время отправка сообщения невозможна. Мы прикладываем максимум усилий для исправления ситуации.</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+	        </div>
+	      </div>
+	     </div>
+  	</div>
+  	<img src="img/line.png" alt="line" class="retro__img">
+	</section>
+
+	<footer class="footer">Made by AlexForsky 2017</footer>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
